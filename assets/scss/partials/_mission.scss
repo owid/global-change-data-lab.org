@@ -1,0 +1,34 @@
+.mission-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mission-item {
+    display: flex;
+    padding: 0 20px 0 0;
+    margin: 0 0 40px 0;
+    width: 50%;
+}
+
+.mission-item-title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.mission-number {
+    color: $yellow;
+    font-family: galada,cursive;
+    font-size: 160px;
+    line-height: 1;
+    margin: 0 20px 0 0;
+}
+
+@media (max-width: 900px) {
+    .mission-item {
+        width: 100%;
+    }
+}
