@@ -53,9 +53,47 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    padding: 0 20px;
     text-align: center;
+}
+
+.content-wrapper.full-bg-image {
+    padding: 0;
 }
 
 .content-image {
     width: 200px;
+}
+
+.full-image {
+    display: block;
+    width: 102%;
+}
+
+.placeholder-item {
+    background-color: $yellow;
+}
+
+@media (max-width: 900px) {
+    .project-item {
+        width: 100%;
+    }
+
+    .project-link {
+        min-height: 0;
+    }
+
+    .project-description {
+        padding: 10px 20px;
+        position: static;
+        max-width: 100%;
+    }
+
+    .owid-project-title {
+        font-size: 46px;
+    }
+
+    .placeholder-item {
+        display: none;
+    }
 }
