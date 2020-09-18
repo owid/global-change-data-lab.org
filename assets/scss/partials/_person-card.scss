@@ -1,0 +1,40 @@
+.people-section-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.seperator {
+    align-self: center;
+    background-color: $darkBlue;
+    height: 200px;
+    margin: 0 80px;
+    width: 1px;
+}
+
+.person-card {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.person-image-container {
+    border-radius: 50%;
+    height: 80px;
+    margin: 0 12px 0 0;
+    overflow: hidden;
+    width: 80px;
+}
+
+.person-image {
+    width: 100%;
+}
+
+.person-name {
+    font-size: 16px;
+    margin: 0;
+}
+
+.person-title,
+.person-institute {
+    font-size: 12px;
+    margin: 0;
+}

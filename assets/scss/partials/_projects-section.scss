@@ -1,0 +1,61 @@
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-item {
+    background-color: $light;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    position: relative;
+    width: 49%;
+}
+
+.project-item.first {
+    width: 100%;
+}
+
+.project-link {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    text-decoration: none;
+}
+
+.project-description {
+    background-color: rgba(255,255,255,.9);
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    max-width: 50%;
+}
+
+.owid-blue-section {
+    background-color: $darkBlue;
+    color: $light;
+    flex: 1 1 auto;
+}
+
+.owid-red-section {
+    background-color: $red;
+    height: 50px;
+}
+
+.owid-project-title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.content-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-image {
+    width: 200px;
+}

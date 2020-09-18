@@ -3,27 +3,17 @@
 }
 
 .body-tag {
-    background-color: $darkBlue;
-    color: $light;
+    background-color: $lightBlue;
+    color: $darkBlue;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }
 
-.responsive-image {
-    display: block;
-}
-
-.path-blend {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 .button {
     border: 1px solid $darkBlue;
-    border-radius: 0.25rem;
+    border-radius: 8px;
     background: transparent;
     color: $darkBlue;
     display: inline-block;
