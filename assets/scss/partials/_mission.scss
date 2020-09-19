@@ -1,7 +1,17 @@
+.section-title {
+    font-size: 30px;
+    margin: 20px 0 70px 0;
+    text-transform: uppercase;
+}
+
+.underline {
+    border-bottom: 4px solid $red;
+}
+
 .mission-section {
     background-color: $darkBlue;
     color: $light;
-    padding: 24px 0;
+    padding: 50px 0;
 }
 
 .mission-list {
@@ -20,7 +30,7 @@
 }
 
 .mission-item-title {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.2;
     margin: 0;
 }
@@ -34,7 +44,17 @@
 }
 
 @media (max-width: 900px) {
+    .section-title {
+        font-size: 24px;
+        margin: 10px 0 50px 0;
+    }
+
     .mission-item {
         width: 100%;
+    }
+
+    .mission-number {
+        font-size: 126px;
+        margin: 0 16px 0 0;
     }
 }

@@ -1,3 +1,9 @@
+.projects-title {
+    font-family: galada,cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
@@ -6,11 +12,33 @@
 
 .project-item {
     background-color: $light;
+    border: 1px solid transparent;
     border-radius: 10px;
     margin: 0 0 20px 0;
     overflow: hidden;
     position: relative;
     width: 49%;
+}
+
+.link-icon {
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: opacity .3s ease-in-out;
+    width: 40px;
+}
+
+.light-icon {
+    fill: $light;
+}
+
+.dark-icon {
+    fill: $dark;
+}
+
+.project-link:hover .link-icon {
+    opacity: 1;
 }
 
 .project-item.first {
@@ -30,7 +58,7 @@
     left: 0;
     padding: 20px;
     position: absolute;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .owid-blue-section {
@@ -65,9 +93,10 @@
     width: 200px;
 }
 
-.full-image {
-    display: block;
-    width: 102%;
+.project-bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .placeholder-item {
@@ -79,8 +108,9 @@
         width: 100%;
     }
 
-    .project-link {
-        min-height: 0;
+    .link-icon {
+        opacity: 1;
+        width: 24px;
     }
 
     .project-description {

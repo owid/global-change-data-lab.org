@@ -16,10 +16,13 @@
     margin: 0 0 20px 0;
 }
 
+.person-picture {
+    margin: 0 12px 0 0;
+}
+
 .person-image-container {
     border-radius: 50%;
     height: 80px;
-    margin: 0 12px 0 0;
     overflow: hidden;
     width: 80px;
 }
@@ -37,4 +40,14 @@
 .person-institute {
     font-size: 12px;
     margin: 0;
+}
+
+@media (max-width: 700px) {
+    .people-section-inner {
+        flex-direction: column;
+    }
+
+    .seperator {
+        display: none;
+    }
 }

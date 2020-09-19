@@ -69,13 +69,35 @@
 
 .donate-button {
     background-color: $yellow;
-    border: 0;
+    border: 1px solid transparent;
     font-size: 24px;
     font-family: galada,cursive;
     padding: 20px 30px;
+    transition: border .3s ease-in-out;
 }
 
 .donate-button:hover {
     background-color: $yellow;
+    border: 1px solid $darkBlue;
     color: $darkBlue;
+}
+
+@media (max-width: 900px) {
+    .logo-wrapper {
+        margin: 0 16px 0 0;
+        width: unset;
+    }
+
+    .hero-message-wrapper {
+        margin: 0;
+    }
+
+    .header-title {
+        font-size: 36px;
+    }
+
+    .hero-message {
+        font-size: 20px;
+        max-width: unset;
+    }
 }
