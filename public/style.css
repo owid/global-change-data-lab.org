@@ -423,9 +423,15 @@ a:visited {
 }
 
 @media(max-width:700px) {
+	.link-icon {
+		right: 6px;
+		top: 6px;
+	}
+
 	.people-section-inner {
 		flex-direction: column
 	}
+
 	.seperator {
 		display: none
     }
