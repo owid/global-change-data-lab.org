@@ -1,0 +1,33 @@
+.main-footer {
+    background-color: $darkBlue;
+    color: $light;
+}
+
+.main-footer-inner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.footer-logo {
+    flex-shrink: 0;
+    margin: 0 10px 0 0;
+    max-width: 100%;
+}
+
+.footer-description {
+    margin: 0;
+    max-width: 300px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .footer-column {
+        width: 100%;
+    }
+}

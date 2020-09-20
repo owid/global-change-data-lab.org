@@ -1,3 +1,7 @@
+.people-section {
+    padding: 50px 0;
+}
+
 .people-section-inner {
     display: flex;
     justify-content: center;
@@ -38,8 +42,13 @@
 
 .person-title,
 .person-institute {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: normal;
     margin: 0;
+}
+
+.person-institute {
+    font-style: italic;
 }
 
 @media (max-width: 700px) {

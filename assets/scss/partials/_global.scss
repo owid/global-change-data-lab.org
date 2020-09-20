@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+a {
+    color: $darkBlue;
+}
+
+a:visited {
+    color: $blue;
+}
+
 .body-tag {
     background-color: $lightBlue;
     color: $darkBlue;
@@ -9,6 +17,10 @@
     line-height: 1.5;
 	margin: 0;
 	padding: 0;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .button {
