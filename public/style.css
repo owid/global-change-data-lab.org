@@ -97,6 +97,8 @@ a:visited {
 }
 
 .header-flag {
+	font-size: 12px;
+	font-weight: bold;
 	margin: 0;
 	text-transform: uppercase
 }
