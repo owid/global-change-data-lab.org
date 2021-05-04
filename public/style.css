@@ -1,8 +1,18 @@
-html,
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.125rem;
   background-color: #fff5e2;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
@@ -17,26 +27,46 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 400;
-  margin: 2.25rem 0 1.5rem;
+  margin: 4rem 0 2rem;
+  padding-bottom: 1rem;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 h3 {
-  font-size: 1.125rem;
-  font-weight: 700;
-  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 2rem 0 1rem;
+  color: white;
 }
+
 strong {
   color: white;
 }
 
+a {
+  color: inherit;
+  /* text-decoration: underline; */
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+li {
+  margin: 0 0 1.25rem;
+}
+
 .wrapper {
-  width: 50rem;
+  max-width: 43rem;
+  padding: 0 1.5rem;
   margin: 0 auto;
 }
 
 header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .navigation {
@@ -62,28 +92,8 @@ header {
 
 .paper {
   margin: 1rem 0;
-  padding: 1.5rem 3rem;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  font-size: 1.125rem;
-}
-
-.paper p {
-  margin: 1.25rem 0;
-}
-
-.paper li {
-  margin: 0.5rem 0;
-}
-
-.paper a {
-  color: #002147;
-  text-decoration: underline;
 }
 
 .paper a:hover {
   text-decoration: none;
-}
-
-.paper a:visited {
-  color: #173252;
 }
