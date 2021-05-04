@@ -5,6 +5,28 @@ body {
   padding: 0;
   background-color: #fff5e2;
   line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  background: #002147;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 2.25rem 0 1.5rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
 }
 
 .wrapper {
@@ -13,9 +35,6 @@ body {
 }
 
 header {
-  background: #002147;
-  border-bottom: 8px solid #ee4723;
-  color: white;
 }
 
 .navigation {
@@ -39,18 +58,9 @@ header {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 0;
-  padding: 1rem 0;
-  text-align: center;
-}
-
 .paper {
   margin: 1rem 0;
   padding: 1.5rem 3rem;
-  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.3);
   font-size: 1.125rem;
 }
@@ -61,11 +71,6 @@ h1 {
 
 .paper li {
   margin: 0.5rem 0;
-}
-
-.paper p,
-.paper li {
-  color: #1e2a35;
 }
 
 .paper a {
@@ -79,16 +84,4 @@ h1 {
 
 .paper a:visited {
   color: #173252;
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin: 2.25rem 0 1.5rem;
-}
-
-h3 {
-  font-size: 1.125rem;
-  font-weight: 700;
-  margin: 1rem 0;
 }
