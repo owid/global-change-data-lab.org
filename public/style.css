@@ -1,93 +1,94 @@
-html, body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	margin: 0;
-	padding: 0;
-	background-color: #FFF5E2;
-	line-height: 1.5;
+html,
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5e2;
+  line-height: 1.5;
 }
 
 .wrapper {
-	width: 50rem;
-	margin: 0 auto;
+  width: 50rem;
+  margin: 0 auto;
 }
 
 header {
-	background: #002147;
-	border-bottom: 8px solid #EE4723;
-	color: white;
+  background: #002147;
+  border-bottom: 8px solid #ee4723;
+  color: white;
 }
 
 .navigation {
-	float: right;
-	margin-top: 1.5rem;
+  float: right;
+  margin-top: 1.5rem;
 }
 
 .navigation a {
-	font-size: 1.25rem;
-	color: rgba(255,255,255,.65);
-	text-decoration: none;
-	transition: color 100ms ease;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  transition: color 100ms ease;
 }
 
 .navigation a:hover {
-	color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 h1 {
-	font-size: 2rem;
-	font-weight: 400;
-	margin: 0;
-	padding: 1rem 0;
-	text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 .paper {
-	margin: 1rem 0;
-	padding: 1.5rem 3rem;
-	background-color: white;
-	border: 1px solid rgba(0,0,0,.3);
-	font-size: 1.125rem;
+  margin: 1rem 0;
+  padding: 1.5rem 3rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 1.125rem;
 }
 
 .paper p {
-	margin: 1.25rem 0;
+  margin: 1.25rem 0;
 }
 
 .paper li {
-	margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .paper p,
 .paper li {
-	color: #1e2a35;
+  color: #1e2a35;
 }
 
 .paper a {
-	color: #002147;
-	text-decoration: underline;
+  color: #002147;
+  text-decoration: underline;
 }
 
 .paper a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .paper a:visited {
-	color: #173252;
+  color: #173252;
 }
 
 h2 {
-	font-size: 1.5rem;
-	font-weight: 400;
-	margin: 2.25rem 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 2.25rem 0 1.5rem;
 }
 
 h3 {
-	font-size: 1.125rem;
-	font-weight: 700;
-	margin: 1rem 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 1rem 0;
 }
