@@ -81,6 +81,12 @@ header {
   align-items: center;
 }
 
+@media (min-width: 60rem) {
+  .logo-title {
+    margin-left: -8.25rem; /* width + margin of .logo-title img */
+  }
+}
+
 .logo-title img {
   width: 6.25rem;
   margin-right: 2rem;
