@@ -79,28 +79,46 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo-title {
   display: flex;
   color: white;
   align-items: center;
 }
 
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.logo-title img {
+  width: 4rem;
+  margin-right: 2rem;
+}
+
 @media (min-width: 60rem) {
   .logo-title {
     margin-left: -8.25rem; /* width + margin of .logo-title img */
   }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .logo-title img {
+    width: 6.25rem;
+  }
 }
 
-.logo-title img {
-  width: 6.25rem;
-  margin-right: 2rem;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 300;
-  margin: 0;
-  line-height: 1.1;
+.donate {
+  margin-left: 2rem;
 }
 
 main {
