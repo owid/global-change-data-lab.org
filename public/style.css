@@ -102,3 +102,25 @@ h1 {
 main {
   margin: 1rem 0;
 }
+
+.person {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.person h3 {
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.person img {
+  width: 8rem;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 4rem;
+}
+
+.person .title {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
