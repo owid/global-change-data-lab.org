@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 0 5rem;
   padding: 0;
   font-family: "Lato", sans-serif;
   font-size: 1.125rem;
@@ -153,4 +153,29 @@ main {
 .person .title {
   font-style: italic;
   margin-bottom: 1rem;
+}
+
+a.prominent-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  text-decoration: none;
+  justify-items: stretch;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  font-size: 1rem;
+}
+
+a.prominent-link:hover {
+  border: 1px solid white;
+}
+
+.prominent-link img {
+  flex: 0 0 auto;
+  height: 3rem;
+  width: auto;
+}
+
+.prominent-link .content {
+  padding: 0.5rem 1rem;
 }
