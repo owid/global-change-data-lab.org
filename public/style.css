@@ -1,93 +1,181 @@
-html, body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	margin: 0;
-	padding: 0;
-	background-color: #FFF5E2;
-	line-height: 1.5;
+html {
+  box-sizing: border-box;
 }
 
-.wrapper {
-	width: 50rem;
-	margin: 0 auto;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-header {
-	background: #002147;
-	border-bottom: 8px solid #EE4723;
-	color: white;
-}
-
-.navigation {
-	float: right;
-	margin-top: 1.5rem;
-}
-
-.navigation a {
-	font-size: 1.25rem;
-	color: rgba(255,255,255,.65);
-	text-decoration: none;
-	transition: color 100ms ease;
-}
-
-.navigation a:hover {
-	color: rgba(255,255,255,.9);
-}
-
-.logo {
-	color: white;
-	text-decoration: none;
-}
-
-h1 {
-	font-size: 2rem;
-	font-weight: 400;
-	margin: 0;
-	padding: 1rem 0;
-	text-align: center;
-}
-
-.paper {
-	margin: 1rem 0;
-	padding: 1.5rem 3rem;
-	background-color: white;
-	border: 1px solid rgba(0,0,0,.3);
-	font-size: 1.125rem;
-}
-
-.paper p {
-	margin: 1.25rem 0;
-}
-
-.paper li {
-	margin: .5rem 0;
-}
-
-.paper p,
-.paper li {
-	color: #1e2a35;
-}
-
-.paper a {
-	color: #002147;
-	text-decoration: underline;
-}
-
-.paper a:hover {
-	text-decoration: none;
-}
-
-.paper a:visited {
-	color: #173252;
+body {
+  margin: 0 0 5rem;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  background: #002147;
 }
 
 h2 {
-	font-size: 1.5rem;
-	font-weight: 400;
-	margin: 2.25rem 0 1.5rem;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 4rem 0 1.5rem;
+  padding-bottom: 1rem;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 h3 {
-	font-size: 1.125rem;
-	font-weight: 700;
-	margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 2.5rem 0 0.5rem;
+  color: white;
+}
+
+h2 + h3 {
+  margin-top: 0;
+}
+
+strong {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+ol {
+  padding-left: 18px; /* HACK */
+}
+
+li {
+  margin: 0 0 1.25rem;
+  padding-left: 1rem;
+}
+
+li::marker {
+  color: white;
+}
+
+.wrapper {
+  max-width: 43rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+header {
+  padding: 2.5rem 0;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-title {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.logo-title img {
+  display: none;
+  width: 4rem;
+  height: auto;
+  margin-right: 2rem;
+}
+
+@media (min-width: 25rem) {
+  .logo-title img {
+    display: block;
+  }
+}
+
+@media (min-width: 60rem) {
+  .logo-title {
+    margin-left: -8.25rem; /* width + margin of .logo-title img */
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .logo-title img {
+    width: 6.25rem;
+  }
+}
+
+.donate {
+  margin-left: 2rem;
+}
+
+main {
+  margin: 1rem 0;
+}
+
+.person {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.person h3 {
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.person img {
+  width: 8rem;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 4rem;
+}
+
+.person .title {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+a.prominent-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  text-decoration: none;
+  justify-items: stretch;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  font-size: 1rem;
+}
+
+a.prominent-link:hover {
+  border: 1px solid white;
+}
+
+.prominent-link img {
+  flex: 0 0 auto;
+  height: 3rem;
+  width: auto;
+}
+
+.prominent-link .content {
+  padding: 0.5rem 1rem;
 }
