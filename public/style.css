@@ -89,6 +89,7 @@ header .wrapper {
   display: flex;
   color: white;
   align-items: center;
+  text-decoration: none;
 }
 
 h1 {
@@ -133,6 +134,14 @@ main {
   margin: 1rem 0;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,.15);
+  margin: 2rem 0;
+}
+
+/* person */
+
 .person {
   display: flex;
   margin-bottom: 3rem;
@@ -154,6 +163,8 @@ main {
   font-style: italic;
   margin-bottom: 1rem;
 }
+
+/* prominent link */
 
 a.prominent-link {
   display: inline-flex;
@@ -177,5 +188,33 @@ a.prominent-link:hover {
 }
 
 .prominent-link .content {
+  padding: 0.5rem 1rem;
+}
+
+/* large prominent link, for public statement */
+
+a.prominent-link-large {
+  display: inline-flex;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-decoration: none;
+  justify-items: stretch;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+a.prominent-link-large:hover {
+  border: 1px solid white;
+}
+
+.prominent-link-large img {
+  flex: 0 0 auto;
+  height: 3rem;
+  width: auto;
+}
+
+.prominent-link-large .content {
   padding: 0.5rem 1rem;
 }
